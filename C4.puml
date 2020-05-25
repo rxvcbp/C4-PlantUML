@@ -40,6 +40,14 @@ skinparam rectangle<<boundary>> {
     BorderStyle dashed
 }
 
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    Style AWESOME
+    StereoTypeFontColor #666666
+    FontColor #666666
+}
+
 ' Layout
 ' ##################################
 

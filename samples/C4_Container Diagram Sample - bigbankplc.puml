@@ -1,15 +1,15 @@
 @startuml
-!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/rxvcbp/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 
 LAYOUT_TOP_DOWN
-'LAYOUT_AS_SKETCH
-LAYOUT_WITH_LEGEND
+' LAYOUT_AS_SKETCH()
+LAYOUT_WITH_LEGEND()
 
 title Container diagram for Internet Banking System
 
-Person(customer, Customer, "A customer of the bank, with personal bank accounts")
+Person(customer, Customer, "CACA customer of the bank, with personal bank accounts")
 
 System_Boundary(c1, "Internet Banking") {
     Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA")
